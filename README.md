@@ -1,5 +1,9 @@
 # Kelmarsh-Wind-Farm-SCADA-Dashboard
 
+<p align="center">
+  <img src="Images/Kelmarsh Wind Farm Scada Overview.jpg" width="1000">
+</p>
+
 **Project Overview**
 <p align="justify">
 I created this interactive dashboard in Power BI to mimic a real SCADA (Supervisory Control and Data Acquisition) and GIS (Geographic Information System) monitoring dashboard for a wind turbine farm. The primary goal was to transform raw, operational data into a powerful tool for monitoring key performance indicators (KPIs), identifying trends, and optimizing the performance and maintenance of each turbine. By providing an intuitive interface, the dashboard empowers operations managers and maintenance teams to make data-driven decisions, proactively address issues, and ultimately maximize the wind farm's energy production.
@@ -19,7 +23,13 @@ Within Power BI, I then built a simple **data model** with a **one-to-many relat
 * **Fact Table:** Stores all the time-series data.
 * **Dimension Table:** Holds static details for each turbine.
 
+You can find the raw data files in the [Data Folder](Data) in this repo
+
 The design separates the data, ensuring efficiency, scalability, and seamless filtering while avoiding data duplication.
+
+<p align="center">
+  <img src="Images/Kelmarsh Wind Farm  Data Model.jpg" width="700">
+</p>
 
 ---
 
@@ -69,4 +79,4 @@ I choose each visualization to present the data in the clearest and most effecti
 **How to View the Dashboard**
 
 1. **View the Screenshot**: You can see a high-res image of the dashboard in this repo.
-2. **Open the .pbix File**: If you have Power BI Desktop, you can download or clone this repo to your machine and open the Kelmarsh Wind Farm SCADA Overview.pbix file to interact with the dashboard yourself.
+2. **Open the .pbix File**: If you have Power BI Desktop, you can download from the [Dashboard Folder](Dashboard) or clone this repo to your machine and open the Kelmarsh Wind Farm SCADA Overview.pbix file to interact with the dashboard yourself.
