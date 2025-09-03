@@ -33,4 +33,40 @@ This dashboard provides a comprehensive look at the wind farm's operations throu
 4. **Operational Trends:** A time-series line graph visualizes how total power output, offline time, and wind speed have changed over the month. This helps in revealing operational patterns and trends, which supports future performance forecasting and scheduling.
 5. **Performance Curve:** A scatter plot demonstrates the relationship between  wind speed and power output. This visualization is crucial for confirming that turbines are operating efficiently and align with their expected power curve.
 
-</p>
+---
+
+**A Story From The Data**
+1. The data from January 2021 tells a clear  story about the Kelmarsh Wind Farm. Overall, the KPI cards shows a steady month of operation. However, the line graph of operational trends revelas that total power output followed the changes in average wind speed, which is exactly what we want to see.
+
+2. By looking at the bar charts, we can see that most turbines performed weoo, but some, like the KWF4, had lower power output and more downtime. This is an inportant clue that KWF4 might have needed maintenance or had an ongoing issue.
+
+3. The scatter plot confirms that all turbines are operating efficiently. As the wind speed went up, so did the power output, proving the farm's design is working correctly. This view also helps us understand why the total power output changed throughout the month as it was tied directly to the available wind.
+
+4. The Esri Map provides the physical context fir all of this data. If we were managing the farm, we would click on KWF4 on the map to get a closer look at its specific details and plan a maintenance check for it.
+
+---
+
+**Visualization Logic**
+
+I choose each visualization to present the data in the clearest and most effective way:
+* **Esri Map:** This map provides a geographical overview, which is essential for a physical asset like a wind farm. It helps users quickly see the location of each turbine and allows them to click on a specific one to see its performance.
+* **KPI Card:** These are used for a quick, at-a-glance health check. By putting the most important numbers in a clear, card format, users can see the current status of the farm instantly.
+* **Bar Charts:** Bar charts are ideal for comparing values across different categories. In this case, they make it easy to directly compare the performance of each individual turbine against the others.
+* **Line Graph:** A line graph is the best way to show how data changes over a period of time. This helps in spotting trends and patterns in power output, downtime, and wind speed.
+* **Scatter Plot:** A scatter plot is perfect for showing the relationship between two different data points. This visualization clearly shows if a turbine's power output is increasing with wind speed, confirming that it's operating correctly.
+
+---
+
+**Technologies and Skill Used**
+* **Power BI**: Used for building a powerful and easy-to-use dashboard.
+* **Power Query**: Used to clean and prepare the raw data.
+* **Data Modeling**: Designed a simple model to make the dashboard efficient.
+* **Esri**: Used for adding geographical data and location-based insights.
+* **Data Analysis**: Focused on finding key trends and issues to provide useful insights.
+
+---
+
+**How to View the Dashboard**
+
+1. **View the Screenshot**: You can see a high-res image of the dashboard in this repo.
+2. **Open the .pbix File**: If you have Power BI Desktop, you can download or clone this repo to your machine and open the Kelmarsh Wind Farm SCADA Overview.pbix file to interact with the dashboard yourself.
