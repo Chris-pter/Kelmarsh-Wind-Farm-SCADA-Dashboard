@@ -7,8 +7,12 @@
 **Project Overview**
 <p align="justify">
 I created this interactive dashboard in Power BI to mimic a real SCADA (Supervisory Control and Data Acquisition) and GIS (Geographic Information System) monitoring dashboard for a wind turbine farm. The primary goal was to transform raw, operational data into a powerful tool for monitoring key performance indicators (KPIs), identifying trends, and optimizing the performance and maintenance of each turbine. By providing an intuitive interface, the dashboard empowers operations managers and maintenance teams to make data-driven decisions, proactively address issues, and ultimately maximize the wind farm's energy production.
-
+  
 ---
+
+<p align="center">
+  <img src="Images/Kelmarsh Wind Farm SCADA Overview.gif" width="800">
+</p>
 
 **Data Source and Modeling**
 * The data for this project is based on **secondary SCADA data**. This dashboard is designed to reflect the dynamic nature of SCADA systems, where data is updated frequently.
