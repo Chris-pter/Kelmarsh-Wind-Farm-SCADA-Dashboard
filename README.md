@@ -53,7 +53,7 @@ The design separates the data, ensuring efficiency, scalability, and seamless fi
 **A Story From The Data**
 1. The data from January 2021 tells a clear  story about the Kelmarsh Wind Farm. Overall, the KPI cards shows a steady month of operation. However, the line graph of operational trends revelas that total power output followed the changes in average wind speed, which is exactly what we want to see.
 
-2. By looking at the bar charts, we can see that most turbines performed weoo, but some, like the KWF4, had lower power output and more downtime. This is an important clue that KWF4 might have needed maintenance or had an ongoing issue.
+2. By looking at the bar charts, we can see that most turbines performed well, but some, like the KWF4, had lower power output and more downtime. This is an important clue that KWF4 might have needed maintenance or had an ongoing issue.
 
 3. The scatter plot confirms that all turbines are operating efficiently. As the wind speed went up, so did the power output, proving the farm's design is working correctly. This view also helps us understand why the total power output changed throughout the month as it was tied directly to the available wind.
 
